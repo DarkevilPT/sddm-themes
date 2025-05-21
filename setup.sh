@@ -33,7 +33,7 @@ git_clone(){
 umask 022
 echo -e "${green}[*] Cloning theme to $path_to_git_clone.${no_color}"
 [ -d "$path_to_git_clone"/sddm-themes ] && sudo mv "$path_to_git_clone"/sddm-themes "$path_to_git_clone"/sddm-themes_$date && echo -e "${green}[*] Old configs detected in $path_to_git_clone, backing up.${no_color}"
-git clone -b master --depth 1 https://github.com/DarkevilPT/sddm-themes.git "$path_to_git_clone"/sddm-themes
+git clone -b main --depth 1 https://github.com/DarkevilPT/sddm-themes.git "$path_to_git_clone"/sddm-themes
 }
 
 copy_files(){

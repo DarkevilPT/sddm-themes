@@ -90,6 +90,3 @@ sddm-greeter --test-mode --theme /usr/share/sddm/themes/sddm-themes
 
 - You can also customize it further if you wish in the `/usr/share/sddm/themes/sddm-themes/theme.conf`
 (blur, form position, etc).
-
-## Credits
-- Theme is based on [`LINK`](https://github.com/Keyitdev/sddm-astronaut-theme) by [**Keyitdev**](https://github.com/Keyitdev)

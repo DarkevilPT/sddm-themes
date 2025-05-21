@@ -33,7 +33,7 @@ git_clone(){
 umask 022
 echo -e "${green}[*] Cloning theme to $path_to_git_clone.${no_color}"
 [ -d "$path_to_git_clone"/sddm-themes ] && sudo mv "$path_to_git_clone"/sddm-themes "$path_to_git_clone"/sddm-themes_$date && echo -e "${green}[*] Old configs detected in $path_to_git_clone, backing up.${no_color}"
-git clone -b master --depth 1 https://github.com/keyitdev/sddm-themes.git "$path_to_git_clone"/sddm-themes
+git clone -b master --depth 1 https://github.com/DarkevilPT/sddm-themes.git "$path_to_git_clone"/sddm-themes
 }
 
 copy_files(){
@@ -41,13 +41,12 @@ umask 022
 echo -e "${green}[*] Coping theme from $path_to_git_clone to /usr/share/sddm/themes/.${no_color}"
 [ -d /usr/share/sddm/themes/sddm-themes ] && sudo mv /usr/share/sddm/themes/sddm-themes /usr/share/sddm/themes/sddm-themes_$date && echo -e "${green}[*] Old configs detected in /usr/share/sddm/themes/sddm-themes, backing up.${no_color}"
 sudo mkdir -p /usr/share/sddm/themes/sddm-themes
-sudo cp -r "$path_to_git_clone"/sddm-themes/* /usr/share/sddm/themes/sddm-themes
-sudo cp -r /usr/share/sddm/themes/sddm-themes/Fonts/* /usr/share/fonts/
+sudo cp -r "$path_to_git_clone"/sddm-themes/* /usr/share/sddm/themes/sddm-themes 
 echo -e "${green}[*] Setting up theme.${no_color}"
 echo "[Theme]
 Current=sddm-themes" | sudo tee /etc/sddm.conf
 echo "[General]
-InputMethod=qtvirtualkeyboard" | sudo tee /etc/sddm.conf.d/virtualkbd.conf
+InputMethod=" | sudo tee /etc/sddm.conf
 }
 
 select_theme(){

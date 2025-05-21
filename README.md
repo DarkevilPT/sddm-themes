@@ -84,9 +84,9 @@ sddm-greeter --test-mode --theme /usr/share/sddm/themes/sddm-themes
 
 
 ### 🖼️ Default SDDM background
-- To change the default background, put desired image in the `/usr/share/sddm/themes/simple-sddm-2/Backgrounds/` folder and add the name of the image followed by its extension (`.jpg` or `.png`) in `theme.conf` file.
+- To change the default background, put desired image in the `/usr/share/sddm/themes/sddm-themes/backgrounds/` folder and add the name of the image followed by its extension (`.jpg` or `.png`) in `theme.conf` file.
 
-- You can also customize it further if you wish in the `/usr/share/sddm/themes/simple-sddm-2/theme.conf`
+- You can also customize it further if you wish in the `/usr/share/sddm/themes/sddm-themes/theme.conf`
 (blur, form position, etc).
 
 ## Credits

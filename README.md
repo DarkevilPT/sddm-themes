@@ -20,7 +20,8 @@ A Simple theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login
 ## Automatic Installation
 
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/DarkevilPT/sddm-themes/main/setup.sh)"
+#Not fixed yet
+#sh -c "$(curl -fsSL https://raw.githubusercontent.com/DarkevilPT/sddm-themes/main/setup.sh)"
 ```
 
 

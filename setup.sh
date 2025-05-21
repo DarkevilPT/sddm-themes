@@ -79,7 +79,7 @@ echo -e "${red}[*] Error: invalid number or input.${no_color}"
 exit
 fi
 
-modified_line="$text$selected_theme.conf"
+// modified_line="$text$selected_theme.conf"
 
 sudo sed -i "s|^$text.*|$modified_line|" $path_to_metadata
 echo -e "${green}[*] Changed: $line -> $modified_line${no_color}"

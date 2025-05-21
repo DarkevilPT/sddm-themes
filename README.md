@@ -63,11 +63,15 @@ sudo systemctl disable display-manager.service ; sudo systemctl enable sddm
 Preview how themes will look with the greeter:
 
 ```
-sddm-greeter --test-mode --theme /usr/share/sddm/themes/maya
-sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-astronaut-theme
+sddm-greeter --test-mode --theme /usr/share/sddm/themes/sddm-themes
+#sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-themes
 ```
 
-![image|690x431](https://github.com/DarkevilPT/sddm-themes/backgrounds/sddm-themes.png) 
+<h2 align=center>Preview</h2>
+<center>
+<img src="backgrounds/armbian3preview.png" alt="armbian3preview">
+</details>
+</center>
 
 ```
 sudo rm -rf /usr/share/sddm/themes/sddm-themes

@@ -8,11 +8,12 @@ A Simple theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login
 
 <h2 align=center>Preview</h2>
 <center>
-<img src="backgrounds/armbian1.png" alt="armbian1">
+<img src="backgrounds/sddm-themes.png" alt="sddm-themes">
 <details>
 <summary align=center>More Previews</summary>
+<img src="backgrounds/armbian1.png" alt="armbian1">
 <img src="backgrounds/armbian2.png" alt="armbian2">
-<img src="backgrounds/armbian3.png" alt="armbian3">
+<img src="backgrounds/armbian3.jpg" alt="armbian3">
 </details>
 </center>
 
@@ -38,7 +39,7 @@ sudo apt install -y sddm qtdeclarative5-dev qml-module-qtgraphicaleffects qml-mo
 sudo apt install --reinstall sddm qtbase5-dev qtdeclarative5-dev qml-module-qtquick-controls qml-module-qtquick-controls2 qml-module-qtgraphicaleffects qml-module-qtquick2 -y
 ```
 
-## 🛠️ Fix: Login Manager going black randomly by typing or mouse pressing Debian/Ubuntu :point_left:t2:
+## 🛠️ Fix: Login Manager going black randomly by typing or mouse pressing Debian/Ubuntu :point_left:
 
 If SDDM (Simple Desktop Display Manager) causes the screen to go black when entering input (especially with virtual keyboards or IMEs), apply this fix:
 
@@ -68,7 +69,7 @@ sddm-greeter --test-mode --theme /usr/share/sddm/themes/maya
 sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-astronaut-theme
 ```
 
-![image|690x431](upload://DarkevilPT/sddm-themes/backgrounds/sddm-themes.png) 
+![image|690x431](https://github.com/DarkevilPT/sddm-themes/backgrounds/sddm-themes.png) 
 
 ```
 sudo rm -rf /usr/share/sddm/themes/sddm-themes

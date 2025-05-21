@@ -50,8 +50,8 @@ InputMethod=" | sudo tee /etc/sddm.conf
 }
 
 select_theme(){
-path_to_metadata="/usr/share/sddm/themes/sddm-themes/metadata.desktop"
-text="ConfigFile=Themes/"
+// path_to_metadata="/usr/share/sddm/themes/sddm-themes/metadata.desktop"
+// text="ConfigFile=Themes/"
 
 line=$(grep $text "$path_to_metadata")
 

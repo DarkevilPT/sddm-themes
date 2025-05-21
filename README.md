@@ -17,6 +17,13 @@ A Simple theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login
 
 ## Install
 
+## Automatic Installation
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/DarkevilPT/sddm-themes/master/setup.sh)"
+```
+
+
 ## ⚙️ Install Requirements for Different Distros
 
 ```

@@ -1,6 +1,6 @@
-<h2 align="center">🗼 SDDM Themes 🗼</h2>
+<h2 align="center">✨ SDDM Themes ✨</h2>
 
-<h1 align="center"> This will be the SDDM Themes Show</h1>
+<h1 align="center"> SDDM Themes for Everyone !</h1>
 
 <p align=center>
 A Simple theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login Manager</a>

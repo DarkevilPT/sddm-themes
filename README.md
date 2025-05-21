@@ -11,9 +11,7 @@ A Simple theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login
 <img src="backgrounds/sddm-themes.png" alt="sddm-themes">
 <details>
 <summary align=center>More Previews</summary>
-<img src="backgrounds/armbian1.png" alt="armbian1">
-<img src="backgrounds/armbian2.png" alt="armbian2">
-<img src="backgrounds/armbian3.jpg" alt="armbian3">
+<img src="backgrounds/armbian3preview.png" alt="armbian3preview">
 </details>
 </center>
 

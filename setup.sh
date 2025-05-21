@@ -109,7 +109,7 @@ case $x in
 [3]* ) git_clone; exit;;
 [4]* ) copy_files; exit;;
 [5]* ) select_theme; exit;;
-[6]* ) sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-themes/; exit;;
+[6]* ) sddm-greeter --test-mode --theme /usr/share/sddm/themes/sddm-themes/; exit;;
 [7]* ) enable_sddm; exit;;
 [8]* ) exit;;
 * ) echo -e "${red}[*] Error: invalid number or input.${no_color}";;

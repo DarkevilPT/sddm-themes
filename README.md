@@ -8,7 +8,7 @@ A Simple theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login
 
 <h2 align=center>Preview</h2>
 <center>
-<img src="backgrounds/sddm-themes.png" alt="sddm-themes">
+<img src="backgrounds/background2.jpg" alt="background2">
 <details>
 <summary align=center>More Previews</summary>
 <img src="backgrounds/armbian1.png" alt="armbian1">

@@ -11,7 +11,36 @@ A Simple theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login
 <img src="backgrounds/sddm-themes.png" alt="sddm-themes">
 <details>
 <summary align=center>More Previews</summary>
-<img src="backgrounds/armbian3preview.png" alt="armbian3preview">
+<img src="backgrounds/armbian1.png" alt="armbian1">
+armbian1.png
+<img src="backgrounds/armbian2.png" alt="armbian2">
+armbian2.png
+<img src="backgrounds/armbian3.jpg" alt="armbian3">
+armbian3.jpg
+<img src="backgrounds/astronaut.png" alt="astronaut">
+astronaut.png
+<img src="backgrounds/background.jpg" alt="background">
+background.jpg
+<img src="backgrounds/background1.jpg" alt="background1">
+background1.jpg
+<img src="backgrounds/background2.jpg" alt="background2">
+background2.jpg
+<img src="backgrounds/black_hole.png" alt="black_hole">
+black_hole.png
+<img src="backgrounds/cyberpunk.png" alt="cyberpunk">
+cyberpunk.png
+<img src="backgrounds/hyprland_kath.png" alt="hyprland_kath">
+hyprland_kath.png
+<img src="backgrounds/jake_the_dog.png" alt="jake_the_dog">
+jake_the_dog.png
+<img src="backgrounds/japanese_aesthetic.png" alt="japanese_aesthetic">
+japanese_aesthetic.png
+<img src="backgrounds/pixel_sakura.gif" alt="pixel_sakura">
+pixel_sakura.gif
+<img src="backgrounds/post-apocalyptic_hacker.png" alt="post-apocalyptic_hacker">
+post-apocalyptic_hacker.png
+<img src="backgrounds/purple_leaves.png" alt="purple_leaves">
+purple_leaves.png
 </details>
 </center>
 
@@ -41,8 +70,7 @@ sddm-qt6 libQt6Svg6 qt6-virtualkeyboard qt6-virtualkeyboard-imports qt6-multimed
 (Note: This may not work for all systems, but give it a try!)
 
 ```
-sudo apt install -y sddm qtdeclarative5-dev qml-module-qtgraphicaleffects qml-module-qtquick-controls qtquickcontrols2-5-dev libqt5svg5-dev qt6-wayland-dev qt6-5compat-dev qtcreator -y
-sudo apt install --reinstall sddm qtbase5-dev qtdeclarative5-dev qml-module-qtquick-controls qml-module-qtquick-controls2 qml-module-qtgraphicaleffects qml-module-qtquick2 -y
+sudo apt install -y sddm qtbase5-dev qtdeclarative5-dev qml-module-qtquick-controls qml-module-qtquick-controls2 qml-module-qtgraphicaleffects qml-module-qtquick2 -y
 ```
 
 ## 🛠️ Fix: Login Manager going black randomly by typing or mouse pressing Debian/Ubuntu :point_left:
